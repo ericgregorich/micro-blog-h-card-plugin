@@ -1,0 +1,53 @@
+{
+  "version": "1.0",
+  "title": "H-Cards",
+  "description": "A simple way to add H-Card support to your site.",
+  "includes": ["/static/hcard.css"],
+  "fields": [
+    {
+      "field": "params.hcard-display-home",
+      "label": "Display on home page?",
+      "placeholder": "Display the H-CARD on your home page?",
+      "type": "boolean"
+    },
+    {
+      "field": "params.hcard-display-post",
+      "label": "Display on each post?",
+      "placeholder": "Display the H-CARD on each of your posts?",
+      "type": "boolean"
+    },
+    {
+      "field": "params.hcard-name-full",
+      "label": "Full Name",
+      "placeholder": "Your Full Name."
+    },
+    {
+      "field": "params.hcard-name-given",
+      "label": "Your given name."
+    },
+    {
+      "field": "params.hcard-name-additional",
+      "label": "Your additional name."
+    },
+    {
+      "field": "params.hcard-name-family",
+      "label": "Your family name."
+    },
+    {
+      "field": "params.hcard-photo-url",
+      "label": "A full URL to your profile picture."
+    },
+    {
+      "field": "params.hcard-website-url",
+      "label": "Add the full URL to your website."
+    },
+    {
+      "field": "params.hcard-country",
+      "label": "Add your country."
+    },
+    {
+      "field": "params.hcard-bio",
+      "label": "Add a brief bio about yourself."
+    }
+  ]
+}
