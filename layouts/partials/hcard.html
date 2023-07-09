@@ -1,8 +1,6 @@
-<pre class="wp-block-code"><code>
-    <div class="h-card vcard"> 
-        {{ with .Site.Params.hcardnamefull }}<span class="p-name">{{ . }}</span>{{ end }}
-        {{ with .Site.Params.hcardnamegiven }}<span class="p-given-name">{{ . }}</span>{{ end }}
-        {{ with .Site.Params.hcardnameadditional }}<span class="p-additional-name">{{ . }}</span>{{ end }}
-        {{ with .Site.Params.hcardnamefamily }}<span class="p-family-name">{{ . }}</span>{{ end }}
-    </div>
-</code>
+<div class="h-card vcard"> 
+    {{ with .Site.Params.hcardnamefull }}<span class="p-name">{{ . }}</span>{{ end }}
+    {{ with .Site.Params.hcardnamegiven }}<span class="p-given-name">{{ . }}</span>{{ end }}
+    {{ with .Site.Params.hcardnameadditional }}<span class="p-additional-name">{{ . }}</span>{{ end }}
+    {{ with .Site.Params.hcardnamefamily }}<span class="p-family-name">{{ . }}</span>{{ end }}
+</div>
