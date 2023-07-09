@@ -23,31 +23,33 @@
     },
     {
       "field": "params.hcardnamegiven",
-      "label": "Your given name."
+      "label": "Given Name",
+      "placeholder": "Your Given Name."
     },
     {
       "field": "params.hcardnameadditional",
-      "label": "Your additional name."
+      "label": "Additional Name",
+      "placeholder": "Your Additional Name."
     },
     {
       "field": "params.hcardnamefamily",
-      "label": "Your family name."
+      "label": "Family Name",
+      "placeholder": "Your family name."
     },
     {
       "field": "params.hcardphotourl",
-      "label": "A full URL to your profile picture."
+      "label": "Photo",
+      "placeholder": "The URL to your profile photo."
     },
     {
       "field": "params.hcardwebsiteurl",
-      "label": "Add the full URL to your website."
-    },
-    {
-      "field": "params.hcardcountry",
-      "label": "Add your country."
+      "label": "Website",
+      "placeholder": "The URL to your website."
     },
     {
       "field": "params.hcardbio",
-      "label": "Add a brief bio about yourself."
+      "label": "BIO",
+      "placeholder": "A brief bio of yourself or your site."
     }
   ]
 }
