@@ -5,48 +5,48 @@
   "includes": ["/static/hcard.css"],
   "fields": [
     {
-      "field": "params.hcard-display-home",
+      "field": "params.hcarddisplayhome",
       "label": "Display on home page?",
       "placeholder": "Display the H-CARD on your home page?",
       "type": "boolean"
     },
     {
-      "field": "params.hcard-display-post",
+      "field": "params.hcarddisplaypost",
       "label": "Display on each post?",
       "placeholder": "Display the H-CARD on each of your posts?",
       "type": "boolean"
     },
     {
-      "field": "params.hcard-name-full",
+      "field": "params.hcardnamefull",
       "label": "Full Name",
       "placeholder": "Your Full Name."
     },
     {
-      "field": "params.hcard-name-given",
+      "field": "params.hcardnamegiven",
       "label": "Your given name."
     },
     {
-      "field": "params.hcard-name-additional",
+      "field": "params.hcardnameadditional",
       "label": "Your additional name."
     },
     {
-      "field": "params.hcard-name-family",
+      "field": "params.hcardnamefamily",
       "label": "Your family name."
     },
     {
-      "field": "params.hcard-photo-url",
+      "field": "params.hcardphotourl",
       "label": "A full URL to your profile picture."
     },
     {
-      "field": "params.hcard-website-url",
+      "field": "params.hcardwebsiteurl",
       "label": "Add the full URL to your website."
     },
     {
-      "field": "params.hcard-country",
+      "field": "params.hcardcountry",
       "label": "Add your country."
     },
     {
-      "field": "params.hcard-bio",
+      "field": "params.hcardbio",
       "label": "Add a brief bio about yourself."
     }
   ]
