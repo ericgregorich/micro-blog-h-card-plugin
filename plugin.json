@@ -2,7 +2,7 @@
   "version": "1.0",
   "title": "H-Cards",
   "description": "A simple way to add H-Card support to your site.",
-  "includes": ["/static/hcard.css"],
+  "includes": ["hcard.css"],
   "fields": [
     {
       "field": "params.hcarddisplayhome",
